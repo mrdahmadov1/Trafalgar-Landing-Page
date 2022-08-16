@@ -1,0 +1,95 @@
+body {
+    background: #ffffff;
+}
+
+.wrapper {
+    width: 1340px;
+    min-height: 100vh;
+    margin: 56px auto 200px;
+    border: 1px solid green;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* HEADER STYLE STARTS */
+
+header {
+    align-items: center;
+    font-weight: 700;
+}
+
+header .logo p {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    color: #233348;
+}
+
+header .logo p span {
+    font-size: 26px;
+    line-height: 33px;
+    color: #ffffff;
+    background: #458ff6;
+    padding: 5px 15px;
+    border-radius: 50%;
+    margin-right: 13px;
+}
+
+header .menu {
+    text-align: right;
+}
+
+header .menu a {
+    margin-right: 43px;
+    font-size: 18px;
+    line-height: 23px;
+    color: #1F1534;
+    opacity: 0.5;
+}
+
+header .menu a:nth-child(1) {
+    opacity: 1;
+}
+
+/* HEADER STYLE ENDS */
+
+/* SECTION 1 STYLE STARTS */
+
+section.section-1 {
+    margin-top: 80px;
+    align-items: center;
+}
+
+section.section-1 .image {
+    text-align: right;
+}
+
+section.section-1 .content h1 {
+    font-size: 48px;
+    line-height: 56px;
+}
+
+section.section-1 .content p {
+    font-size: 21px;
+    line-height: 32px;
+    margin: 25px 0 45px;
+}
+
+section.section-1 .content button {
+    border-radius: 55px;
+    font-size: 18px;
+    line-height: 60px;
+    padding: 0 43px;
+}
+
+section.section-1 .content button.button-1{
+    background: #458FF6;
+    color: #ffffff;
+}
+
+/* SECTION 1 STYLE ENDS */
+
+main {
+    flex-grow: 1;
+}
