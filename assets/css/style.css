@@ -2,14 +2,33 @@ body {
     background: #ffffff;
 }
 
-.wrapper {
+.container {
     width: 1340px;
+    margin: 56px auto 0;
+}
+
+.wrapper {
     min-height: 100vh;
-    margin: 56px auto 200px;
     border: 1px solid green;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    align-items: center;
+}
+
+main {
+    flex-grow: 1;
+}
+
+.after::after {
+    content: "";
+    position: absolute;
+    width: 56px;
+    height: 2px;
+    bottom: -26px;
+    left: calc(50% - 28px);
+    border-radius: 5px;
+    background: #000000;
 }
 
 /* HEADER STYLE STARTS */
@@ -24,16 +43,6 @@ header .logo p {
     font-size: 24px;
     line-height: 30px;
     color: #233348;
-}
-
-header .logo p span {
-    font-size: 26px;
-    line-height: 33px;
-    color: #ffffff;
-    background: #458ff6;
-    padding: 5px 15px;
-    border-radius: 50%;
-    margin-right: 13px;
 }
 
 header .menu {
@@ -76,20 +85,290 @@ section.section-1 .content p {
     margin: 25px 0 45px;
 }
 
-section.section-1 .content button {
-    border-radius: 55px;
-    font-size: 18px;
-    line-height: 60px;
-    padding: 0 43px;
+/* SECTION 1 STYLE ENDS */
+
+/* SECTION 2 STYLE STARTS */
+
+section.section-2 {
+    margin-top: 191px;
 }
 
-section.section-1 .content button.button-1{
-    background: #458FF6;
+section.section-2 .title {
+    text-align: center;
+}
+
+section.section-2 .title h2 {
+    position: relative;
+}
+
+section.section-2 .title p {
+    margin-top: 61px;
+    padding: 0 200px;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+section.section-2 .content {
+    gap: 34px;
+    padding: 80px 93px 72px;
+    align-items: center;
+    justify-content: center;
+}
+
+section.section-2 .content .box {
+    flex-basis: 350px;
+    height: 355px;
+    padding: 54px 45px 47px 39px;
+    box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+    border-radius: 20px;
+}
+
+section.section-2 .content .image {
+    width: 70px;
+    height: 95px;
+}
+
+section.section-2 .content .box h3 {
+    font-size: 24px;
+    line-height: 56px;
+    margin-top: 25px;
+}
+
+section.section-2 .content .box p {
+    font-size: 16px;
+    line-height: 28px;
+}
+
+/* SECTION 2 STYLE ENDS */
+
+/* SECTION 3 STYLE STARTS */
+
+section.section-3 {
+    margin-top: 222px;
+    padding: 0 70px 0 13px;
+    align-items: center;
+}
+
+section.section-3 .content {
+    margin-left: 20px;
+}
+
+section.section-3 .content h2 {
+    position: relative;
+}
+
+section.section-3 .content h2::after {
+    left: 0;
+}
+
+section.section-3 .content p {
+    font-size: 18px;
+    line-height: 30px;
+    margin: 60px 0 40px;
+}
+
+/* SECTION 3 STYLE ENDS */
+
+/* SECTION 4 STYLE STARTS */
+
+section.section-4 {
+    margin-top: 229px;
+    padding: 0;
+}
+
+section.section-4 .content {
+    margin-left: 108px;
+}
+
+section.section-4 .image {
+    text-align: right;
+}
+
+/* SECTION 4 STYLE ENDS */
+
+/* SECTION 5 STYLE STARTS */
+
+section.section-5 {
+    width: 1120px;
+    margin: 222px auto 0;
+    padding: 0 118px 80px;
+    background: linear-gradient(208.18deg, #67C3F3 9.05%, #5A98F2 76.74%);
+    border-radius: 24px;
+    align-items: center;
+}
+
+section.section-5 .title {
+    padding: 64px 0;
+    text-align: center;
+}
+
+section.section-5 .title h2 {
+    position: relative;
     color: #ffffff;
 }
 
-/* SECTION 1 STYLE ENDS */
-
-main {
-    flex-grow: 1;
+section.section-5 .title h2::after {
+    background: #ffffff;
 }
+
+section.section-5 .customer {
+    align-items: center;
+}
+
+section.section-5 .customer img {
+    margin-right: 29px;
+}
+
+section.section-5 .customer {
+    line-height: 34px;
+}
+
+section.section-5 .customer h4 {
+    font-size: 22px;
+    color: #ffffff;
+}
+
+section.section-5 .customer p {
+    font-weight: 400;
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.85);
+}
+
+section.section-5 .content p {
+    font-weight: 300;
+    font-size: 19px;
+    line-height: 30px;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+/* SECTION 5 STYLE ENDS */
+
+/* SECTION 6 STYLE STARTS */
+
+section.section-6 {
+    margin-top: 270px;
+}
+
+section.section-6 .title {
+    text-align: center;
+}
+
+section.section-6 .title h2 {
+    position: relative;
+}
+
+section.section-6 .content {
+    margin: 79px 0 69px;
+    column-gap: 34px;
+    justify-content: center;
+}
+
+section.section-6 .card {
+    flex-basis: 350px;
+    height: 512px;
+    box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+    border-radius: 20px;
+    background: #ffffff;
+
+}
+
+section.section-6 .card h4 {
+    font-size: 21px;
+    line-height: 32px;
+    padding: 21px 66px 12px 33px;
+}
+
+section.section-6 .card p {
+    font-size: 16px;
+    line-height: 28px;
+    padding: 0 66px 25px 33px;
+}
+
+section.section-6 .card a {
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 28px;
+    color: #4089ed;
+    padding: 0 66px 35px 33px;
+}
+
+/* SECTION 6 STYLE ENDS */
+
+/* FOOTER STYLE STARTS */
+
+footer {
+    margin-top: 202px;
+    background: linear-gradient(183.41deg, #67C3F3 -8.57%, #5A98F2 82.96%);
+    padding: 68px 130px;
+    align-self: stretch;
+    box-sizing: border-box;
+}
+
+footer .container {
+    column-gap: 50px;
+    justify-content: flex-end;
+}
+
+footer .container .content p:nth-child(1) {
+    color: #ffffff;
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 700;
+}
+
+footer .container .content p:nth-child(1) span {
+    background: #ffffff;
+    color: #5B9BF3;
+}
+
+footer .container .content p {
+    font-size: 18px;
+    line-height: 28px;
+    color: #ffffff;
+}
+
+footer .container .content p:nth-child(2) {
+    margin: 20px 0 35px;
+}
+
+footer .container .content p:nth-child(3) {
+    font-size: 16px;
+}
+
+footer .container .menu {
+    justify-content: space-around;
+}
+
+footer .container .menu ul li a {
+    font-size: 18px;
+    line-height: 38px;
+    color: #FFFFFF;
+}
+
+footer .container .menu ul li:nth-child(1) a {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 60px;
+}
+
+/* FOOTER STYLE ENDS */
+
+/* POSITINED ELEMENTS STARTS */
+
+body {
+    position: relative;
+}
+
+.vector-1 {
+    position: absolute;
+    right: 0;
+    top: calc(50% - 115px);
+}
+
+.vector-2 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+/* POSITINED ELEMENTS ENDS */

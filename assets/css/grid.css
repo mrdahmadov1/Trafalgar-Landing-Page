@@ -1,15 +1,12 @@
-
 .row {
     box-sizing: border-box;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    border: 1px solid blue;
 }
 
 .col {
     box-sizing: border-box;
-    border: 1px solid red;
 }
 
 .col-1 {

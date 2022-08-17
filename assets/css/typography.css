@@ -1,16 +1,50 @@
-body{
+a,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+button {
     font-family: 'Mulish';
 }
 
-p{
+p {
     color: #7d7987;
     font-weight: 300;
 }
 
-h1, h2, h3, h4, h5, h6{
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     color: #000000;
 }
 
-h1,h2,h3,h4,h5,h6,button{
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+button {
     font-weight: 700;
+}
+
+h2 {
+    font-size: 36px;
+    line-height: 56px;
+}
+
+span {
+    font-size: 26px;
+    line-height: 33px;
+    background: #5b9bf3;
+    color: #ffffff;
+    padding: 5px 15px;
+    border-radius: 50%;
+    margin-right: 13px;
 }
