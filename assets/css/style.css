@@ -297,6 +297,7 @@ section.section-6 .card a {
 /* FOOTER STYLE STARTS */
 
 footer {
+    width: 100%;
     margin-top: 202px;
     background: linear-gradient(183.41deg, #67C3F3 -8.57%, #5A98F2 82.96%);
     padding: 68px 130px;
